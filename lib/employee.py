@@ -1,5 +1,6 @@
 # lib/employee.py
 from __init__ import CURSOR, CONN
+from department import Department
 
 
 class Employee:
@@ -11,6 +12,8 @@ class Employee:
         self.id = id
         self.name = name
         self.job_title = job_title
+          
+
 
     def __repr__(self):
         return (
